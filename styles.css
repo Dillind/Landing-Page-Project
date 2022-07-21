@@ -82,7 +82,6 @@ button {
     border-color: #3882f6;
     padding: 5px;
     width: 100px;
-    height: auto;
 
 }
 
@@ -92,29 +91,44 @@ button {
 
 .content1 {
     display: flex;
+    height: 350px;
 
+}
+
+.random {
+    display: flex;
+    border: 1px solid green;
+    margin: 0;
 }
 
 .footer {
     margin-top: auto;
-    color: #E5E7EB
+    color: #E5E7EB;
 }
 
 .box {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px red;
+    border: 5px solid red;
 }
 
 .content2 {
     background-color: #E5E7EB;
-    font-size: 36px;
-    color: #1f2937
+    display: flex;
+    height: 300px;
 
 }
 
+.author {
+    float: right;
+    font-size: 25px;
+    color: #1f2937
+}
+
 .content3 {
+    display: flex;
+    height: 300px;
+
 
 }
